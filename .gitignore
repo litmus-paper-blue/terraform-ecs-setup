@@ -1,0 +1,57 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Terraform lock files
+.terraform.lock.hcl
+
+# Sensitive variables files
+*.tfvars
+*.tfvars.json
+terraform.tfvars
+
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local environment variables
+.env
+.envrc
+
+# SSH Keys
+*.pem
+*.key
+id_rsa*
+id_dsa*
+
+# Certificates
+*.crt
+*.cer
+*.ca
+
+# Log files
+*.log
+
+# Secrets files
+secrets.tf
+*secrets.tf
+*secret*.tf
+
+# Backup files
+*.bak
+*.backup
+*~
